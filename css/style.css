@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Poetsen+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+/* titulos */
+
+.titulo{
+    font-family: 'Anek Bangla', 'Impact';
+    font-size: x-large;
+    text-align: center;
+}
+
+.titulo2{
+    font-family: 'Roboto', 'Impact';
+    font-size: large;
+}
+
+.paragrafo {
+    font-family: 'Calibri', 'Aptos';
+    font-size: medium;
+}
+
+.legenda {
+    font-family: 'Arial Narrow', 'Aptos';
+    font-size: small;
+}
+
+/* cores */
+
+.cor1{
+    color: #00f;
+}
+
+.cor2{
+    color:rgb(170, 0, 255)
+}
+
+.cor3{
+    color:rgb(0, 26, 255)
+}
+
+.bgcolor3 {
+    background-color:rgb(185, 49, 171);
+
+}
+
+/* Display */
+
+.linha{
+    width: 100%;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    flex-wrap: wrap;
+    border: black 2px solid;
+}
+
+.caixa{
+    height: 100px;
+    border: gray 1px dashed;
+    
+}
+
+.grande {
+    width: 100%;
+    text-align: center;
+}
+
+.media {
+    width: 50%;
+}
+
+.pequena {
+    width: 33%;
+}
+
+img {
+    margin-right: 20px;
+    margin-bottom: 1px;
+}
+
+.nav-link.active {
+    color:blueviolet;
+    border-radius: 5px; 
+}
+
+h3 {
+    color:blueviolet;
+}
+
+.custom-border {
+    background-color: blueviolet; 
+    border-color: blueviolet;
+    color: white;
+    margin-left: 20px;
+}
+
+
+a {
+  color: white;
+  font-family: "Anek Bangla";
+}
+
+
+.btn-custom {
+    background-color: blueviolet; 
+    color: white;
+    border: none; 
+  }
+
+
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+  .h-custom {
+  height: calc(100% - 73px);
+  }
+  @media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+  }
