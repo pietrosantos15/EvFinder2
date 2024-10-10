@@ -16,6 +16,7 @@ O projeto EvFinder tem como objetivo principal facilitar a descoberta e a compra
  - HTML
  - CSS
  - JS
+ - Bootstrap
 ## Autores
 - Pietro Freire Rezende dos Santos - GitHub - pietrosantos15
 
